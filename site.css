@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: lightyellow;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  color: whitesmoke;
+  background-color: black;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  margin-top: 3vh;
+  margin-left: 3vw;
+}
+
+header > img {
+  height: 10vh;
+  margin-right: 3vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffdff5;
+  padding-bottom: 5vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #141414;
+}
+
+nav > a {
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  margin: 5px;
+}
+
+nav > a:hover {
+  border-bottom: whitesmoke solid 2px;
+}
+
+.greet {
+  display: flex;
+  justify-content: center;
+  margin: 5vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  flex-direction: column;
+  border: #141414 solid 2px;
+  background-color: whitesmoke;
+  box-shadow: grey 3px 3px 5px;
+}
+
+.subheader {
+  text-align: center;
+  padding: 10px;
+  background-color: #cdf0fc;
+  border-bottom: #141414 solid 2px;
+}
+
+.content {
+  padding: 10px;
+  text-align: center;
+}
+
+.item > img {
+  display: flex;
+  height: 20vh;
+  align-self: center;
+}
+
+.item > a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+  padding: 10px;
+  letter-spacing: 8px;
+  background-color: #405850;
+  color: whitesmoke;
+}
+
+.item > a:hover {
+  box-shadow: 0 2px 5px -2px black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  /* padding-top: 5vh; */
+  background-color: lightyellow;
+}
+
+.icons > a > img {
+  display: flex;
+  height: 5vh;
+  background-color: lightyellow;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons > a {
+  margin: 30px;
+  padding: 5px;
+}
+
+.icons > a:hover {
+  border-bottom: #141414 solid 2px;
+}
